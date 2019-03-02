@@ -11,11 +11,11 @@ let disabledArray = [];
 
 function usedKeys(key){
   for(var h = 0; h < checkedLetterArray.length; h++) {
-          if (key === checkedLetterArray[h].textContent) {
-            disabledArray.push(key);
-            return disabledArray;
-        }
+        if (key === checkedLetterArray[h].textContent) {
+          disabledArray.push(key);
+          return disabledArray;
       }
+    }
   }
 
 function getButton(key) {
