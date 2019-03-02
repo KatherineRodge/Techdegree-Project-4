@@ -49,7 +49,6 @@ document.onkeyup = function(evt) {
     evt = evt || window.event;
 if (disabledArray.includes(evt.key) === false){
     usedKeys(evt.key);
-    console.log(disabledArray);
     getButton(evt.key);
     game.handleInteraction(thisLetter);
 }
